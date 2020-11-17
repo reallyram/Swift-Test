@@ -9,21 +9,61 @@
 /* Begin PBXBuildFile section */
 		212B5DEC2560E8A900B71050 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B5DEB2560E8A900B71050 /* AppDelegate.swift */; };
 		212B5DEE2560E8A900B71050 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B5DED2560E8A900B71050 /* SceneDelegate.swift */; };
-		212B5DF02560E8A900B71050 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B5DEF2560E8A900B71050 /* ViewController.swift */; };
-		212B5DF32560E8A900B71050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212B5DF12560E8A900B71050 /* Main.storyboard */; };
+		212B5DF02560E8A900B71050 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B5DEF2560E8A900B71050 /* ExploreViewController.swift */; };
 		212B5DF52560E8AA00B71050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212B5DF42560E8AA00B71050 /* Assets.xcassets */; };
 		212B5DF82560E8AA00B71050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212B5DF62560E8AA00B71050 /* LaunchScreen.storyboard */; };
+		212B5E002560EDDB00B71050 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B5DFF2560EDDB00B71050 /* TabBarController.swift */; };
+		212B5E022560F0EC00B71050 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B5E012560F0EC00B71050 /* TabBar.swift */; };
+		218526ED25625DD500BA7705 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218526EC25625DD500BA7705 /* SegmentedControl.swift */; };
+		218526F0256271F000BA7705 /* ThemeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218526EF256271F000BA7705 /* ThemeCollectionViewController.swift */; };
+		218526F22562720300BA7705 /* ThemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218526F12562720300BA7705 /* ThemeCollectionViewCell.swift */; };
+		218526F52562872800BA7705 /* TrendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218526F42562872800BA7705 /* TrendTableViewController.swift */; };
+		218526F72562873300BA7705 /* TrendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218526F62562873300BA7705 /* TrendTableViewCell.swift */; };
+		218526FA2562922500BA7705 /* TrendHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218526F92562922500BA7705 /* TrendHeaderView.swift */; };
+		219DD2C92563826400E86B09 /* TrendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DD2C82563826400E86B09 /* TrendViewModel.swift */; };
+		219DD2CB2563837F00E86B09 /* Trend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DD2CA2563837F00E86B09 /* Trend.swift */; };
+		219DD2CD256383E200E86B09 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DD2CC256383E200E86B09 /* Theme.swift */; };
+		219DD2CF256383F100E86B09 /* ThemeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DD2CE256383F100E86B09 /* ThemeViewModel.swift */; };
+		219DD2D12563847000E86B09 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DD2D02563847000E86B09 /* Category.swift */; };
+		219DD2D32563848700E86B09 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DD2D22563848700E86B09 /* CategoryViewModel.swift */; };
+		219DD2D52563852500E86B09 /* UIImage+Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DD2D42563852500E86B09 /* UIImage+Separator.swift */; };
+		219DD2DC25638D5A00E86B09 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DD2DB25638D5A00E86B09 /* EmptyViewController.swift */; };
+		219DD2DF256392BE00E86B09 /* UIColor+AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DD2DE256392BE00E86B09 /* UIColor+AppTheme.swift */; };
+		219DD2E125639C2000E86B09 /* TrendFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DD2E025639C2000E86B09 /* TrendFooterView.swift */; };
+		21C0234525623BE70047ACC4 /* RootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C0234425623BE70047ACC4 /* RootNavigationController.swift */; };
+		21C0234725623F330047ACC4 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C0234625623F330047ACC4 /* CategoryTableViewController.swift */; };
+		21C02349256241710047ACC4 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C02348256241710047ACC4 /* CategoryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		212B5DE82560E8A900B71050 /* Alinea-iOS-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alinea-iOS-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		212B5DEB2560E8A900B71050 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		212B5DED2560E8A900B71050 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		212B5DEF2560E8A900B71050 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		212B5DF22560E8A900B71050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		212B5DEF2560E8A900B71050 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		212B5DF42560E8AA00B71050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		212B5DF72560E8AA00B71050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		212B5DF92560E8AA00B71050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212B5DFF2560EDDB00B71050 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		212B5E012560F0EC00B71050 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		218526EC25625DD500BA7705 /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		218526EF256271F000BA7705 /* ThemeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCollectionViewController.swift; sourceTree = "<group>"; };
+		218526F12562720300BA7705 /* ThemeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCollectionViewCell.swift; sourceTree = "<group>"; };
+		218526F42562872800BA7705 /* TrendTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendTableViewController.swift; sourceTree = "<group>"; };
+		218526F62562873300BA7705 /* TrendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendTableViewCell.swift; sourceTree = "<group>"; };
+		218526F92562922500BA7705 /* TrendHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendHeaderView.swift; sourceTree = "<group>"; };
+		219DD2C82563826400E86B09 /* TrendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewModel.swift; sourceTree = "<group>"; };
+		219DD2CA2563837F00E86B09 /* Trend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trend.swift; sourceTree = "<group>"; };
+		219DD2CC256383E200E86B09 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		219DD2CE256383F100E86B09 /* ThemeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewModel.swift; sourceTree = "<group>"; };
+		219DD2D02563847000E86B09 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		219DD2D22563848700E86B09 /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		219DD2D42563852500E86B09 /* UIImage+Separator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Separator.swift"; sourceTree = "<group>"; };
+		219DD2DB25638D5A00E86B09 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		219DD2DE256392BE00E86B09 /* UIColor+AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+AppTheme.swift"; sourceTree = "<group>"; };
+		219DD2E025639C2000E86B09 /* TrendFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendFooterView.swift; sourceTree = "<group>"; };
+		21C0234425623BE70047ACC4 /* RootNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationController.swift; sourceTree = "<group>"; };
+		21C0234625623F330047ACC4 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		21C02348256241710047ACC4 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +98,89 @@
 			children = (
 				212B5DEB2560E8A900B71050 /* AppDelegate.swift */,
 				212B5DED2560E8A900B71050 /* SceneDelegate.swift */,
-				212B5DEF2560E8A900B71050 /* ViewController.swift */,
-				212B5DF12560E8A900B71050 /* Main.storyboard */,
+				219DD2DE256392BE00E86B09 /* UIColor+AppTheme.swift */,
+				219DD2D8256387AE00E86B09 /* Navigation */,
+				219DD2D62563856900E86B09 /* Tabs */,
+				219DD2D7256385A200E86B09 /* Explore */,
+				218526EE256271DE00BA7705 /* Category */,
+				218526F32562720700BA7705 /* Theme */,
+				218526F82562873700BA7705 /* Trend */,
+				219DD2DD25638F8800E86B09 /* Empty VC */,
 				212B5DF42560E8AA00B71050 /* Assets.xcassets */,
 				212B5DF62560E8AA00B71050 /* LaunchScreen.storyboard */,
 				212B5DF92560E8AA00B71050 /* Info.plist */,
 			);
 			path = "Alinea-iOS-Challenge";
+			sourceTree = "<group>";
+		};
+		218526EE256271DE00BA7705 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				219DD2D02563847000E86B09 /* Category.swift */,
+				219DD2D22563848700E86B09 /* CategoryViewModel.swift */,
+				21C0234625623F330047ACC4 /* CategoryTableViewController.swift */,
+				21C02348256241710047ACC4 /* CategoryTableViewCell.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		218526F32562720700BA7705 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				219DD2CC256383E200E86B09 /* Theme.swift */,
+				219DD2CE256383F100E86B09 /* ThemeViewModel.swift */,
+				218526EF256271F000BA7705 /* ThemeCollectionViewController.swift */,
+				218526F12562720300BA7705 /* ThemeCollectionViewCell.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		218526F82562873700BA7705 /* Trend */ = {
+			isa = PBXGroup;
+			children = (
+				219DD2CA2563837F00E86B09 /* Trend.swift */,
+				219DD2C82563826400E86B09 /* TrendViewModel.swift */,
+				218526F42562872800BA7705 /* TrendTableViewController.swift */,
+				218526F62562873300BA7705 /* TrendTableViewCell.swift */,
+				218526F92562922500BA7705 /* TrendHeaderView.swift */,
+				219DD2E025639C2000E86B09 /* TrendFooterView.swift */,
+			);
+			path = Trend;
+			sourceTree = "<group>";
+		};
+		219DD2D62563856900E86B09 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				212B5DFF2560EDDB00B71050 /* TabBarController.swift */,
+				212B5E012560F0EC00B71050 /* TabBar.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		219DD2D7256385A200E86B09 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				212B5DEF2560E8A900B71050 /* ExploreViewController.swift */,
+				218526EC25625DD500BA7705 /* SegmentedControl.swift */,
+				219DD2D42563852500E86B09 /* UIImage+Separator.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		219DD2D8256387AE00E86B09 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				21C0234425623BE70047ACC4 /* RootNavigationController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		219DD2DD25638F8800E86B09 /* Empty VC */ = {
+			isa = PBXGroup;
+			children = (
+				219DD2DB25638D5A00E86B09 /* EmptyViewController.swift */,
+			);
+			path = "Empty VC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +243,6 @@
 			files = (
 				212B5DF82560E8AA00B71050 /* LaunchScreen.storyboard in Resources */,
 				212B5DF52560E8AA00B71050 /* Assets.xcassets in Resources */,
-				212B5DF32560E8A900B71050 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +253,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212B5DF02560E8A900B71050 /* ViewController.swift in Sources */,
+				21C0234725623F330047ACC4 /* CategoryTableViewController.swift in Sources */,
+				218526ED25625DD500BA7705 /* SegmentedControl.swift in Sources */,
+				219DD2D12563847000E86B09 /* Category.swift in Sources */,
+				21C0234525623BE70047ACC4 /* RootNavigationController.swift in Sources */,
+				219DD2DC25638D5A00E86B09 /* EmptyViewController.swift in Sources */,
+				219DD2CB2563837F00E86B09 /* Trend.swift in Sources */,
+				219DD2CF256383F100E86B09 /* ThemeViewModel.swift in Sources */,
+				212B5E002560EDDB00B71050 /* TabBarController.swift in Sources */,
+				218526F22562720300BA7705 /* ThemeCollectionViewCell.swift in Sources */,
+				218526F52562872800BA7705 /* TrendTableViewController.swift in Sources */,
+				219DD2D52563852500E86B09 /* UIImage+Separator.swift in Sources */,
+				212B5DF02560E8A900B71050 /* ExploreViewController.swift in Sources */,
 				212B5DEC2560E8A900B71050 /* AppDelegate.swift in Sources */,
+				218526F0256271F000BA7705 /* ThemeCollectionViewController.swift in Sources */,
+				219DD2D32563848700E86B09 /* CategoryViewModel.swift in Sources */,
+				219DD2E125639C2000E86B09 /* TrendFooterView.swift in Sources */,
+				218526FA2562922500BA7705 /* TrendHeaderView.swift in Sources */,
+				219DD2DF256392BE00E86B09 /* UIColor+AppTheme.swift in Sources */,
+				219DD2C92563826400E86B09 /* TrendViewModel.swift in Sources */,
+				218526F72562873300BA7705 /* TrendTableViewCell.swift in Sources */,
 				212B5DEE2560E8A900B71050 /* SceneDelegate.swift in Sources */,
+				212B5E022560F0EC00B71050 /* TabBar.swift in Sources */,
+				21C02349256241710047ACC4 /* CategoryTableViewCell.swift in Sources */,
+				219DD2CD256383E200E86B09 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		212B5DF12560E8A900B71050 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				212B5DF22560E8A900B71050 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		212B5DF62560E8AA00B71050 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +415,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MRNU75P88S;
 				INFOPLIST_FILE = "Alinea-iOS-Challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +434,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MRNU75P88S;
 				INFOPLIST_FILE = "Alinea-iOS-Challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
